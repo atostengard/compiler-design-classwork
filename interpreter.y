@@ -68,9 +68,6 @@ line: plotcommand fileName strExpr strExpr strExpr strExpr{
 		system("Rscript rScript.r");
 		system("xdg-open Rplots.pdf");
 	  }
-	
-	// set $$ = some string and at the end of your program, print out the strings for all the lines
-	// to print the R command, simply cout << $1 << "(" << fixme put parameters in here << ")";
 }
 ;
 
